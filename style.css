@@ -166,7 +166,7 @@ main {
 .bg-img {
   position: absolute;
   width: 3200px;
-  top: calc(50% - 390px);
+  top: calc(50% - 290px);
   left: calc(50% + 10px);
 
   z-index: 1;
