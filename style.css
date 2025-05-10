@@ -55,7 +55,6 @@
 }
 
 body {
-  background-color: #333;
   font-family: "poppinsregular", sans-serif;
 }
 
@@ -65,8 +64,12 @@ body {
 }
 
 header {
+  position: absolute;
+  z-index: 9999;
   width: 100%;
-  padding: 1rem;
+  padding: 0.9rem 0;
+  top: 0;
+  left: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -141,4 +144,9 @@ header ul a {
 }
 .hamburguer .bar::after {
   top: 4.5px;
+}
+
+main {
+  background-color: #353;
+  min-height: 100vh;
 }
