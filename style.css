@@ -1,0 +1,144 @@
+@font-face {
+  font-family: "poppinsbold";
+  src: url("./assets/fonts/poppins-bold-webfont.woff2") format("woff2"),
+    url("./assets/fonts/poppins-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "poppinsextrabold";
+  src: url("./assets/fonts/poppins-extrabold-webfont.woff2") format("woff2"),
+    url("./assets/fonts/poppins-extrabold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "poppinslight";
+  src: url("./assets/fonts/poppins-light-webfont.woff2") format("woff2"),
+    url("./assets/fonts/poppins-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "poppinsmedium";
+  src: url("./assets/fonts/poppins-medium-webfont.woff2") format("woff2"),
+    url("./assets/fonts/poppins-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "poppinsregular";
+  src: url("./assets/fonts/poppins-regular-webfont.woff2") format("woff2"),
+    url("./assets/fonts/poppins-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "poppinsthin";
+  src: url("./assets/fonts/poppins-thin-webfont.woff2") format("woff2"),
+    url("./assets/fonts/poppins-thin-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+  font-family: "poppinsregular", sans-serif;
+}
+
+.logo {
+  width: 100px;
+  max-width: 100px;
+}
+
+header {
+  width: 100%;
+  padding: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  padding: 0 2rem;
+  margin: 0 auto;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+header ul a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0 1.5rem;
+  text-transform: uppercase;
+  font-size: 0.83rem;
+  font-weight: 300;
+}
+
+.search a {
+  font: 1.05rem;
+  padding: 0 3rem;
+}
+
+.hamburguer {
+  padding-left: 1.5rem;
+}
+
+.hamburguer a {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  background-color: rgba(115, 115, 155, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.hamburguer .bar {
+  position: relative;
+  width: 52%;
+  height: 1.3px;
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+.hamburguer .bar::before,
+.hamburguer .bar::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  width: 60%;
+  height: 100%;
+  background-color: inherit;
+  border-radius: 2px;
+  transform: translateX(-50%);
+}
+
+.hamburguer .bar::before {
+  top: -4.5px;
+}
+.hamburguer .bar::after {
+  top: 4.5px;
+}
