@@ -43,11 +43,11 @@ function animationText() {
     .from(
       ".text h1",
       {
-        y: window.innerHeight - document.querySelector(".text h1").getBoundingClientRect().top + 200,
+        y: window.innerHeight - document.querySelector(".text h1").getBoundingClientRect().top + 400,
         duration: 2,
-        delay: 1.5,
+        delay: 1,
       },
-      "1.5"
+      "1"
     )
     .from(
       ".text h2",

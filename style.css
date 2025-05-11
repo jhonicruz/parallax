@@ -356,3 +356,207 @@ main {
   background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 65%, rgba(0, 0, 0, 0.7));
   pointer-events: none;
 }
+
+@media (max-width: 1480px) {
+  .mountain-1 {
+    top: 70%;
+    left: 9.27%;
+    width: 50.15%;
+  }
+
+  .fog-1 {
+    top: 80.26%;
+    left: 104.69%;
+    width: 110.8%;
+  }
+}
+@media (max-width: 1360px) {
+  .text h1 {
+    font-size: 5.8rem;
+  }
+
+  .text h2 {
+    font-size: 4.7rem;
+  }
+}
+
+@media (max-width: 1100px) {
+  .text h1 {
+    font-size: 5.8rem;
+  }
+
+  .text h2 {
+    font-size: 4.7rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .mountain-1 {
+    top: 80%;
+    left: 9.27%;
+    width: 55.15%;
+  }
+
+  .fog-1 {
+    top: 80.26%;
+    left: 104.69%;
+    width: 110.8%;
+  }
+}
+
+@media (max-width: 895px) {
+  .mountain-1 {
+    top: 600px;
+    left: 9.27%;
+    width: 60.15%;
+  }
+
+  .fog-1 {
+    top: 90.26%;
+    left: 104.69%;
+    width: 120.8%;
+  }
+  .mountain-2 {
+    top: 85.01%;
+    left: 77.61%;
+    width: 60.91%;
+  }
+}
+
+@media (max-width: 725px) {
+  .text h1 {
+    font-size: 5rem;
+    line-height: 1.1;
+  }
+
+  .text h2 {
+    font-size: 4.1rem;
+    line-height: 1.1;
+  }
+
+  header nav {
+    padding: 0 1rem;
+  }
+
+  .logo {
+    width: 75px;
+  }
+
+  header ul a {
+    font-size: 0.73rem;
+    padding: 0 0.9rem;
+  }
+
+  .search a {
+    font-size: 0.85rem;
+    padding: 0 1.8rem;
+  }
+
+  .hamburger {
+    padding-left: 0.9rem;
+  }
+
+  .hamburger a {
+    height: 30px;
+    width: 30px;
+  }
+
+  .bg-img {
+    width: initial;
+    height: 208.1%;
+  }
+
+  .fog-7 {
+    width: initial;
+    height: 146.17%;
+  }
+
+  .mountain-10 {
+    width: initial;
+    height: 77.59%;
+  }
+
+  .fog-6 {
+    width: initial;
+    height: 73.11%;
+  }
+
+  .mountain-9 {
+    height: 87.64%;
+    width: initial;
+  }
+
+  .mountain-8 {
+    height: 84.33%;
+    width: initial;
+  }
+
+  .fog-5 {
+    width: initial;
+    height: 54.16%;
+  }
+
+  .mountain-7 {
+    width: initial;
+    height: 72.26%;
+  }
+
+  .mountain-6 {
+    width: initial;
+    height: 56.78%;
+  }
+
+  .fog-4 {
+    width: initial;
+    height: 104.5%;
+  }
+
+  .mountain-5 {
+    width: initial;
+    height: 60.64%;
+  }
+
+  .fog-3 {
+    width: initial;
+    height: 90.78%;
+  }
+
+  .mountain-4 {
+    width: initial;
+    height: 71.42%;
+  }
+
+  .mountain-3 {
+    width: initial;
+    height: 96.86%;
+  }
+
+  .fog-2 {
+    width: initial;
+    height: 84.73%;
+  }
+
+  .mountain-2 {
+    display: none;
+  }
+
+  .mountain-1 {
+    width: initial;
+    height: 100.03%;
+  }
+
+  .fog-1 {
+    width: initial;
+    height: 89.86%;
+  }
+}
+
+@media (max-width: 520px) {
+  .text h1 {
+    font-size: 3.3rem;
+  }
+
+  .text h2 {
+    font-size: 2.6rem;
+  }
+}
